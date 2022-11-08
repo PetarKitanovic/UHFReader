@@ -1,0 +1,136 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.uhfreader816ubt"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="18"
+8-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH" />
+11-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:7:5-68
+11-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:7:22-65
+12    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+12-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:8:5-74
+12-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:8:22-71
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:9:5-81
+13-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:9:22-78
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:10:5-79
+14-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:10:22-76
+15
+16    <uses-feature
+16-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:12:5-14:35
+17        android:name="android.hardware.bluetooth_le"
+17-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:13:9-53
+18        android:required="true" />
+18-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:14:9-32
+19
+20    <application
+20-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:16:5-69:19
+21        android:allowBackup="true"
+21-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:17:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.0.0] C:\Users\kitan\.gradle\caches\transforms-3\2285b91efe25780c6e7d7713eefa7047\transformed\core-1.0.0\AndroidManifest.xml:22:18-86
+23        android:debuggable="true"
+24        android:icon="@drawable/ic_launcher"
+24-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:18:9-45
+25        android:label="@string/app_name"
+25-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:19:9-41
+26        android:testOnly="true"
+27        android:theme="@style/AppTheme" >
+27-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:20:9-40
+28        <activity
+28-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:21:9-29:20
+29            android:name="com.example.uhfreader816ubt.MainActivity"
+29-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:22:13-68
+30            android:exported="true" >
+30-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:23:13-36
+31            <intent-filter>
+31-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:24:13-28:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:25:17-69
+32-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:25:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:27:17-77
+34-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:27:27-74
+35            </intent-filter>
+36        </activity>
+37
+38        <service
+38-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:31:9-34:19
+39            android:name="com.example.uhfreader816ubt.BluetoothLeService"
+39-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:32:13-74
+40            android:enabled="true" >
+40-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:33:13-35
+41        </service>
+42        <service
+42-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:35:9-39:19
+43            android:name="com.example.uhfreader816ubt.MyService"
+43-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:36:13-65
+44            android:enabled="true"
+44-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:37:13-35
+45            android:exported="true" >
+45-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:38:13-36
+46        </service>
+47
+48        <!-- <activity -->
+49        <!-- android:name="com.example.uhfreader816ubt.TabsActivity" -->
+50        <!-- android:label="@string/title_activity_tab" > -->
+51        <!-- </activity> -->
+52        <activity
+52-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:45:9-48:20
+53            android:name="com.example.uhfreader816ubt.IsoG2Activity"
+53-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:46:13-69
+54            android:label="@string/title_activity_iso15693" >
+54-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:47:13-60
+55        </activity>
+56        <activity
+56-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:49:9-52:20
+57            android:name="com.example.uhfreader816ubt.Iso6BActivity"
+57-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:50:13-69
+58            android:label="@string/title_activity_iso14443_a" >
+58-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:51:13-62
+59        </activity>
+60        <activity
+60-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:53:9-56:20
+61            android:name="com.example.uhfreader816ubt.TabsActivity"
+61-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:54:13-68
+62            android:label="@string/title_activity_tabs" >
+62-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:55:13-56
+63        </activity>
+64        <activity
+64-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:57:9-60:20
+65            android:name="com.example.uhfreader816ubt.ReadWActivity"
+65-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:58:13-69
+66            android:label="@string/title_activity_read_w" >
+66-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:59:13-58
+67        </activity>
+68        <activity
+68-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:61:9-64:20
+69            android:name="com.example.uhfreader816ubt.GetActive"
+69-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:62:13-65
+70            android:label="@string/title_activity_get_active" >
+70-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:63:13-62
+71        </activity>
+72        <activity
+72-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:65:9-68:20
+73            android:name="com.example.uhfreader816ubt.ScanModeGroup"
+73-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:66:13-69
+74            android:label="@string/title_activity_scan_mode_group" >
+74-->C:\Users\kitan\StudioProjects\UHFReader816UBT-EN\app\src\main\AndroidManifest.xml:67:13-67
+75        </activity>
+76        <activity
+76-->[com.karumi:dexter:5.0.0] C:\Users\kitan\.gradle\caches\transforms-3\c95082b1edcd2ef36d68c7b6b2d5808d\transformed\jetified-dexter-5.0.0\AndroidManifest.xml:27:9-29:72
+77            android:name="com.karumi.dexter.DexterActivity"
+77-->[com.karumi:dexter:5.0.0] C:\Users\kitan\.gradle\caches\transforms-3\c95082b1edcd2ef36d68c7b6b2d5808d\transformed\jetified-dexter-5.0.0\AndroidManifest.xml:28:13-60
+78            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+78-->[com.karumi:dexter:5.0.0] C:\Users\kitan\.gradle\caches\transforms-3\c95082b1edcd2ef36d68c7b6b2d5808d\transformed\jetified-dexter-5.0.0\AndroidManifest.xml:29:13-69
+79    </application>
+80
+81</manifest>

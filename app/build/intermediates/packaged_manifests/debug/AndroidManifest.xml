@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.uhfreader816ubt"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="31" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.uhfreader816ubt.MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.example.uhfreader816ubt.BluetoothLeService"
+            android:enabled="true" >
+        </service>
+        <service
+            android:name="com.example.uhfreader816ubt.MyService"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+
+        <!-- <activity -->
+        <!-- android:name="com.example.uhfreader816ubt.TabsActivity" -->
+        <!-- android:label="@string/title_activity_tab" > -->
+        <!-- </activity> -->
+        <activity
+            android:name="com.example.uhfreader816ubt.IsoG2Activity"
+            android:label="@string/title_activity_iso15693" >
+        </activity>
+        <activity
+            android:name="com.example.uhfreader816ubt.Iso6BActivity"
+            android:label="@string/title_activity_iso14443_a" >
+        </activity>
+        <activity
+            android:name="com.example.uhfreader816ubt.TabsActivity"
+            android:label="@string/title_activity_tabs" >
+        </activity>
+        <activity
+            android:name="com.example.uhfreader816ubt.ReadWActivity"
+            android:label="@string/title_activity_read_w" >
+        </activity>
+        <activity
+            android:name="com.example.uhfreader816ubt.GetActive"
+            android:label="@string/title_activity_get_active" >
+        </activity>
+        <activity
+            android:name="com.example.uhfreader816ubt.ScanModeGroup"
+            android:label="@string/title_activity_scan_mode_group" >
+        </activity>
+        <activity
+            android:name="com.karumi.dexter.DexterActivity"
+            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+    </application>
+
+</manifest>

@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "com.example.uhfreader816ubt.app-merged_res-14:/layout_activity_main.xml.flat",
+        "source": "com.example.uhfreader816ubt.app-main-16:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.uhfreader816ubt.app-merged_res-14:/drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.uhfreader816ubt.app-main-16:/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.uhfreader816ubt.app-merged_res-14:/menu_scan_mode_group.xml.flat",
+        "source": "com.example.uhfreader816ubt.app-main-16:/menu/scan_mode_group.xml"
+    },
+    {
+        "merged": "com.example.uhfreader816ubt.app-merged_res-14:/layout_activity_6b.xml.flat",
+        "source": "com.example.uhfreader816ubt.app-main-16:/layout/activity_6b.xml"
+    },
+    {
+        "merged": "com.example.uhfreader816ubt.app-merged_res-14:/layout_activity_g2.xml.flat",
+        "source": "com.example.uhfreader816ubt.app-main-16:/layout/activity_g2.xml"
+    },
+    {
+        "merged": "com.example.uhfreader816ubt.app-merged_res-14:/drawable-hdpi_ic_launcher.png.flat",
+        "source": "com.example.uhfreader816ubt.app-main-16:/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.uhfreader816ubt.app-merged_res-14:/menu_read_w.xml.flat",
+        "source": "com.example.uhfreader816ubt.app-main-16:/menu/read_w.xml"
+    },
+    {
+        "merged": "com.example.uhfreader816ubt.app-merged_res-14:/layout_activity_scan_mode_group.xml.flat",
+        "source": "com.example.uhfreader816ubt.app-main-16:/layout/activity_scan_mode_group.xml"
+    },
+    {
+        "merged": "com.example.uhfreader816ubt.app-merged_res-14:/layout_get_active.xml.flat",
+        "source": "com.example.uhfreader816ubt.app-main-16:/layout/get_active.xml"
+    },
+    {
+        "merged": "com.example.uhfreader816ubt.app-merged_res-14:/menu_get_active.xml.flat",
+        "source": "com.example.uhfreader816ubt.app-main-16:/menu/get_active.xml"
+    },
+    {
+        "merged": "com.example.uhfreader816ubt.app-merged_res-14:/menu_tabs.xml.flat",
+        "source": "com.example.uhfreader816ubt.app-main-16:/menu/tabs.xml"
+    },
+    {
+        "merged": "com.example.uhfreader816ubt.app-merged_res-14:/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.uhfreader816ubt.app-main-16:/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.uhfreader816ubt.app-merged_res-14:/layout_listgl.xml.flat",
+        "source": "com.example.uhfreader816ubt.app-main-16:/layout/listgl.xml"
+    },
+    {
+        "merged": "com.example.uhfreader816ubt.app-merged_res-14:/menu_iso14443_a.xml.flat",
+        "source": "com.example.uhfreader816ubt.app-main-16:/menu/iso14443_a.xml"
+    },
+    {
+        "merged": "com.example.uhfreader816ubt.app-merged_res-14:/layout_listitem.xml.flat",
+        "source": "com.example.uhfreader816ubt.app-main-16:/layout/listitem.xml"
+    },
+    {
+        "merged": "com.example.uhfreader816ubt.app-merged_res-14:/layout_activity_tabs.xml.flat",
+        "source": "com.example.uhfreader816ubt.app-main-16:/layout/activity_tabs.xml"
+    },
+    {
+        "merged": "com.example.uhfreader816ubt.app-merged_res-14:/drawable-mdpi_ic_launcher.png.flat",
+        "source": "com.example.uhfreader816ubt.app-main-16:/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.uhfreader816ubt.app-merged_res-14:/menu_main.xml.flat",
+        "source": "com.example.uhfreader816ubt.app-main-16:/menu/main.xml"
+    },
+    {
+        "merged": "com.example.uhfreader816ubt.app-merged_res-14:/layout_list.xml.flat",
+        "source": "com.example.uhfreader816ubt.app-main-16:/layout/list.xml"
+    },
+    {
+        "merged": "com.example.uhfreader816ubt.app-merged_res-14:/menu_iso15693.xml.flat",
+        "source": "com.example.uhfreader816ubt.app-main-16:/menu/iso15693.xml"
+    },
+    {
+        "merged": "com.example.uhfreader816ubt.app-merged_res-14:/menu_tab.xml.flat",
+        "source": "com.example.uhfreader816ubt.app-main-16:/menu/tab.xml"
+    },
+    {
+        "merged": "com.example.uhfreader816ubt.app-merged_res-14:/layout_activity_readw.xml.flat",
+        "source": "com.example.uhfreader816ubt.app-main-16:/layout/activity_readw.xml"
+    }
+]
